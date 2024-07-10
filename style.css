@@ -53,68 +53,75 @@ img{
 	box-sizing: border-box;
     font-family: Castoro;   
 }
+body{
+    line-height: 1.5;
+}
 .wrap{
     margin: 0 auto;
-    width: 1920px;
 }
 .name{
-    font-family: Castoro; 
-    margin: 160px 1238px 0 312px ;
+    font-family: Castoro;
+    width: 370px; 
+    margin-right: auto ;
     font-size: 128px;
     font-weight: 400;
     letter-spacing: 15px;
-    line-height: 192px;
 }
 .photo{
-    margin: 0px 642px 0 642px;
+    text-align: center;
 }
 .resume{
     font-family: Castoro; 
-    margin: 0px 326px 0 972px ;
+    margin-left: auto ;
+    width: 622px;
     font-size: 128px;
     font-weight: 400;
     letter-spacing: 15px;
-    line-height: 192px;
 }
 .content{
     background-color: #EFEFEF;
     padding: 48px 0;
 }
 .summary{
-    margin: 0px 312px 0px 972px;
+    width: 636px;
+    margin-left: auto;
     font-size: 32px;
-    line-height: 48px;
     text-align: left;
 }
 .cv{
-    margin: 80px 972px 0px 312px;
+    width: 636px;
 }
 .title{
     border-bottom: 3px solid #AE0000;
     color: #AE0000;
     width: 636px;
     font-size: 40px;
-    line-height: 60px;
     margin-bottom: 16px;
+    }
+.text a{
+    text-decoration: none;
+    display: inline-block;
+    color: #000000;
+}
+.text a:hover{
+    text-decoration: underline;
+    color: blue;
 }
 .cv li{
     color: #000000;
     font-size: 24px;
-    line-height: 36px;
     margin-bottom: 16px;
 }
 .cv .years{
     color: #949494;
     font-style: italic;
     font-size: 20px;
-    line-height: 30px;
     margin-bottom: 0;
 }
 .cv ul{
     margin: 16px 0px 40px 0px;
 }
 .footer{
-    width: 1920px;
     background-color: #000000;
     margin-top: 144px;
     padding: 64px 0px;
