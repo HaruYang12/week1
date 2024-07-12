@@ -67,13 +67,16 @@ body{
     font-size: 128px;
     font-weight: 400;
     letter-spacing: 15px;
+    padding-top: 160px;
+    padding-left: 100px;
+
 }
 .photo{
     text-align: center;
 }
 .resume{
     font-family: Castoro; 
-    margin-left: auto ;
+    margin-left: auto;
     width: 622px;
     font-size: 128px;
     font-weight: 400;
@@ -81,7 +84,7 @@ body{
 }
 .content{
     background-color: #EFEFEF;
-    padding: 48px 0;
+    padding: 48px 0px 48px 0px;
 }
 .summary{
     width: 636px;
@@ -91,6 +94,8 @@ body{
 }
 .cv{
     width: 636px;
+    margin-top: 80px;
+    margin-left: 100px;
 }
 .title{
     border-bottom: 3px solid #AE0000;
